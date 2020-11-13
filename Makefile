@@ -1,8 +1,8 @@
+.PHONY: clean venv
+
 venv: requirements.txt
 	python -m venv venv
-	. ./venv/bin/activate
-	python -m pip install --upgrade pip
-	python -m pip install -r requirements.txt
+	. ./venv/bin/activate; pip install -U pip; pip install -Ur requirements.txt
 
 clean:
 	rm -rf venv
