@@ -1,3 +1,6 @@
+opencv-python
+pillow
+numpy
 gym
 matplotlib
 black
